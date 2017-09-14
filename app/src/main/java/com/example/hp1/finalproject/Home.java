@@ -14,8 +14,8 @@ Button btrelationship, btask ;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        btrelationship=(Button)findViewById(R.id.btcouple);
-        btask=(Button)findViewById(R.id.btask);
+      //  btrelationship=(Button)findViewById(R.id.btcouple);
+    //    btask=(Button)findViewById(R.id.btask);
 btrelationship.setOnClickListener(this);
         btask.setOnClickListener(this);
     }

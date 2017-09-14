@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|top"
-        android:text="Information"
+        android:text="New's Feed"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <LinearLayout
@@ -45,6 +45,20 @@
                     android:layout_height="70dp" />
 
                 <Button
+                    android:id="@+id/btbody"
+                    android:background="@drawable/bodylanguage"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                   />
+
+                <Button
+                    android:id="@+id/btsex"
+                    android:background="@drawable/sex"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    />
+
+                <Button
                     android:id="@+id/btask"
                     android:background="@drawable/ask"
                     android:layout_width="81dp"
@@ -59,16 +73,18 @@
                    />
 
                 <Button
-                    android:id="@+id/button3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:id="@+id/btfitness"
+                    android:background="@drawable/fitness"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    />
 
                 <Button
-                    android:id="@+id/button1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:id="@+id/bttech"
+                    android:background="@drawable/technology"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    />
             </LinearLayout>
         </HorizontalScrollView>
     </LinearLayout>
